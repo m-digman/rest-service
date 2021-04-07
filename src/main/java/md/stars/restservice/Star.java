@@ -35,7 +35,7 @@ public class Star {
     @Column(name = "star_apparent_magnitude", nullable = false)
     private float starApparentMagnitude;
 
-    @Column(name = "measurement_time", nullable = false)
+    @Column(name = "measurement_time")
     private Timestamp measurementTime;
 
     /**
